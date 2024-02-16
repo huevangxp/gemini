@@ -13,6 +13,6 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true , parameterLimit: 
 
 app.use('/ai', router);
 
-app.listen(3000, () => {
-    console.log('Server running on port:', 3000);
+app.listen(9000, () => {
+    console.log('Server running on port:', 9000);
 });
